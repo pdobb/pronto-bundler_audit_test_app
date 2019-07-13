@@ -7,7 +7,7 @@ rvm:
   - 2.4.1
 notifications:
   email: false
-before_install: gem install bundler -v 2.0.1
+before_install: gem install bundler -v 2.0.1 --no-document
 cache: bundler
 script:
   - 'bundle exec pronto run -c origin/master -f text github_status github_pr_review'
