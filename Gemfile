@@ -18,3 +18,8 @@ group :development do
   gem 'pry-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
+
+################################################################################
+
+# Gems with security advisories, for testing pronto-bundler_audit.
+gem 'yard', '0.9.19'
