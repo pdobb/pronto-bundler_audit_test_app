@@ -8,6 +8,9 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3'
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'pronto'
+gem 'pronto-bundler_audit', path: 'vendor/gems/pronto-bundler_audit-0.4.1'
+
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
