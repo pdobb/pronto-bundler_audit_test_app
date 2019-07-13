@@ -1,0 +1,13 @@
+env:
+ global:
+   - PRONTO_PULL_REQUEST_ID=$TRAVIS_PULL_REQUEST
+sudo: false
+language: ruby
+rvm:
+  - 2.5.3
+notifications:
+  email: false
+before_install: gem install bundler -v 2.0.1
+cache: bundler
+script:
+  - 'bundle exec pronto run -c origin/master -f text github_status github_pr_review'
