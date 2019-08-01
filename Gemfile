@@ -8,6 +8,12 @@ gem 'rails', '~> 5.2.3'
 gem 'sqlite3'
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'pronto'
+gem 'pronto-bundler_audit' #, github: 'pdobb/pronto-bundler_audit', branch: 'master'
+
 group :development do
+  gem "byebug"
+  gem "pry-byebug"
+  gem 'pry-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
