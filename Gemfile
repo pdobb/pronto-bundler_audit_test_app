@@ -23,4 +23,4 @@ end
 
 # Gems with security advisories, for testing pronto-bundler_audit.
 gem 'yard', '0.9.19'
-gem 'bootstrap-sass', '3.4.0'
+gem 'bootstrap-sass', '3.4.1'
