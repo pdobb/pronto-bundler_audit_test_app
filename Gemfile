@@ -9,8 +9,8 @@ gem 'sqlite3'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'pronto'
-# gem 'pronto-bundler_audit', '0.5.0'
-gem 'pronto-bundler_audit', github: 'pdobb/pronto-bundler_audit', branch: 'master'
+gem 'pronto-bundler_audit', '0.6.0'
+# gem 'pronto-bundler_audit', github: 'pdobb/pronto-bundler_audit', branch: 'master'
 
 group :development do
   gem "byebug"
